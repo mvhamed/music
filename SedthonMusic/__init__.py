@@ -8,11 +8,11 @@
 # All rights reserved.
 #
 
-from YukkiMusic.core.bot import YukkiBot
-from YukkiMusic.core.dir import dirr
-from YukkiMusic.core.git import git
-from YukkiMusic.core.userbot import Userbot
-from YukkiMusic.misc import dbb, heroku, sudo
+from SedthonMusic.core.bot import YukkiBot
+from SedthonMusic.core.dir import dirr
+from SedthonMusic.core.git import git
+from SedthonMusic.core.userbot import Userbot
+from SedthonMusic.misc import dbb, heroku, sudo
 
 from .logging import LOGGER
 
