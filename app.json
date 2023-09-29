@@ -67,7 +67,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Rahulsharma45/YukkiMusicBot",
+        "value": "https://github.com/E9N99/musics",
         "required": true
       }
     },
