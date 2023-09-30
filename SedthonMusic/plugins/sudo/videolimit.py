@@ -12,10 +12,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import set_video_limit
-from YukkiMusic.utils.decorators.language import language
+from SedthonMusic import app
+from SedthonMusic.misc import SUDOERS
+from SedthonMusic.utils.database import set_video_limit
+from SedthonMusic.utils.decorators.language import language
 
 VIDEOLIMIT_COMMAND = get_command("VIDEOLIMIT_COMMAND")
 
