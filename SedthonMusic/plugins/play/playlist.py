@@ -18,16 +18,16 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
 from strings import get_command
-from YukkiMusic import Carbon, YouTube, app
-from YukkiMusic.utils.database import (delete_playlist, get_playlist,
+from SedthonMusic import Carbon, YouTube, app
+from SedthonMusic.utils.database import (delete_playlist, get_playlist,
                                        get_playlist_names,
                                        save_playlist)
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.inline.playlist import (botplaylist_markup,
+from SedthonMusic.utils.decorators.language import language, languageCB
+from SedthonMusic.utils.inline.playlist import (botplaylist_markup,
                                               get_playlist_markup,
                                               warning_markup)
-from YukkiMusic.utils.pastebin import Yukkibin
-from YukkiMusic.utils.stream.stream import stream
+from SedthonMusic.utils.pastebin import Yukkibin
+from SedthonMusic.utils.stream.stream import stream
 
 # Command
 PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
