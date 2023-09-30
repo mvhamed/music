@@ -9,8 +9,8 @@
 #
 
 from config import LOG, LOG_GROUP_ID, MUSIC_BOT_NAME
-from YukkiMusic import app
-from YukkiMusic.utils.database import is_on_off
+from SedthonMusic import app
+from SedthonMusic.utils.database import is_on_off
 
 
 async def play_logs(message, streamtype):
