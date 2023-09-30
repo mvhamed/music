@@ -13,12 +13,12 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils.database import (blacklist_chat,
+from SedthonMusic import app
+from SedthonMusic.misc import SUDOERS
+from SedthonMusic.utils.database import (blacklist_chat,
                                        blacklisted_chats,
                                        whitelist_chat)
-from YukkiMusic.utils.decorators.language import language
+from SedthonMusic.utils.decorators.language import language
 
 # Commands
 
