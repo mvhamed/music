@@ -55,7 +55,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("YukkiMusic.plugins" + all_module)
+        importlib.import_module("SedthonMusic.plugins" + all_module)
     LOGGER("SedthonMusic.plugins").info(
         "Successfully Imported Modules "
     )
