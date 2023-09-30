@@ -19,14 +19,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import db
-from YukkiMusic.utils import (Yukkibin, get_channeplayCB,
+from SedthonMusic import app
+from SedthonMusic.misc import db
+from SedthonMusic.utils import (Yukkibin, get_channeplayCB,
                               seconds_to_min)
-from YukkiMusic.utils.database import (get_cmode, is_active_chat,
+from SedthonMusic.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.inline import queue_back_markup, queue_markup
+from SedthonMusic.utils.decorators.language import language, languageCB
+from SedthonMusic.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
