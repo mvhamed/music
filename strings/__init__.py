@@ -42,7 +42,7 @@ for filename in os.listdir(r"./strings/langs/"):
         languages["en"] = yaml.safe_load(
             open(r"./strings/langs/ar.yml", encoding="utf8")
         )
-        languages_present["ar"] = languages["ar"]["name"]
+        languages_present["en"] = languages["ar"]["name"]
     if filename.endswith(".yml"):
         language_name = filename[:-4]
         if language_name == "ar":
