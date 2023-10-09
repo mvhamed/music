@@ -5,7 +5,7 @@ import re
 from pyrogram import Client, filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
-from AnonXMusic import app
+from SedthonMusic import app
 
 
 @app.on_message(filters.command("زخرفه"))
