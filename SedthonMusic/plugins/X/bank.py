@@ -5,7 +5,7 @@ from typing import List, Union
 import time
 from pyrogram import filters
 import datetime
-from AnonXMusic import app
+from SedthonMusic import app
 
 
 #######£££££££££££££££#######££££££££££#############££££££££££#########££££#
@@ -13,7 +13,7 @@ from AnonXMusic import app
 
 SUDOERS = [5552799584]
 
-OWNER_ID = 5552799584
+OWNER_ID = 1488114134
 
 def is_sudoer(_, __, message):
 
