@@ -7,8 +7,8 @@ from pyrogram import filters
 from pyrogram import Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from strings.filters import command
-from AnonXMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
-from AnonXMusic import app
+from SedthonMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from SedthonMusic import app
 from asyncio import gather
 from pyrogram import enums
 from pyrogram.enums import ChatMemberStatus
