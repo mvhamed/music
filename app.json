@@ -12,12 +12,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "8897410",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "43cb89a7b70782868b77ace21c1341a9",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
