@@ -2,14 +2,14 @@ import asyncio
 from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.raw import types
-from AnonXMusic import app
+from SedthonMusic import app
 from datetime import datetime
 import requests
 import pytz
-from AnonXMusic.core.call import Anony
+from SedthonMusic.core.call import Anony
 from pytgcalls import PyTgCalls, StreamType
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from AnonXMusic.utils.database import *
+from SedthonMusic.utils.database import *
 from pytgcalls.exceptions import NoActiveGroupCall, TelegramServerError, AlreadyJoinedError
 from pyrogram.errors import ChatAdminRequired, UserAlreadyParticipant, UserNotParticipant
 
@@ -41,7 +41,7 @@ async def stop_azan():
 
 async def play_azan(chat_id):
     assistant = await group_assistant(Anony, chat_id)
-    azan_audio_path = "./AnonXMusic/assets/azan.mp3"
+    azan_audio_path = "./SedthonMusic/assets/azan.mp3"
     stream = AudioPiped(azan_audio_path)
     try:
         await assistant.join_group_call(
