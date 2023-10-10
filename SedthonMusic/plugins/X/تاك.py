@@ -17,11 +17,6 @@ from pyrogram.errors import FloodWait
 
 @app.on_message(command(["المالك", "صاحب الخرابه", "المنشي"]) & filters.group )
 async def gak_owne(client: Client, message: Message):
-      if len(message.command) >= 2:
-         return 
-      else:
-            chat_id = message.chat.id
-            f = "administrators"
             async for member in client.iter_chat_members(chat_id, filter=f):
                if member.status == "creator":
                  id = member.user.id
