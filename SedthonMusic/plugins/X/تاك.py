@@ -18,7 +18,7 @@ from pyrogram.errors import FloodWait
 @app.on_message(filters.text & filters.group)
 async def reply_to_owner(client, message):
        if 'المالك' in message.text:
-        chat_id = message.chat.id
+       chat_id = message.chat.id
         f = "administrators"
         async for member in client.iter_chat_members(chat_id, filter=f):
             if member.status == "creator":
