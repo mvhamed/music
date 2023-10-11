@@ -5,7 +5,7 @@ import requests
 import aiohttp
 from pyrogram import filters
 from pyrogram import Client
-from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup, ChatMemberStatus
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from strings.filters import command
 from SedthonMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 from SedthonMusic import app
