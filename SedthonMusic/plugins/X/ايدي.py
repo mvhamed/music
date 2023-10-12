@@ -199,7 +199,7 @@ async def sourc(client: Client, message: Message):
 async def aboutd5ev(client: Client, message: Message):
     usr = await client.get_chat(1488114134)
     name = usr.first_name
-    bio = (await client.get_chat(6301863282)).bio
+    bio = (await client.get_chat(1488114134)).bio
     async for photo in client.iter_profile_photos(1488114134, limit=1):
                     await message.reply_photo(photo.file_id, caption=f"""- 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑻𝒐 𝑩𝒐𝒕  𝗦𝞝𝗗𝙏𝙃𝙊𝙉 . . ♪ -› @NUNUU\n\n- 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓'𝒔 𝑩𝒊𝒐 -› {bio}""", 
         reply_markup=InlineKeyboardMarkup(
