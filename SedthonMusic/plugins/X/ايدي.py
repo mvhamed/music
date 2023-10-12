@@ -184,7 +184,7 @@ async def sourc(client: Client, message: Message):
                        "مطور السورس", user_id=1488114134)
                 ],[
                     InlineKeyboardButton(
-                       "تحديثات سينزر", url=f"https://t.me/E9N99")
+                       "تحديثات سيدثون", url=f"https://t.me/E9N99")
                 
                  ],
 
