@@ -12,6 +12,7 @@ from SedthonMusic import app
 from SedthonMusic.utils.database import is_on_off
 from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 from SedthonMusic import app
+from SedthonMusic import edited
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from SedthonMusic.misc import SUDOERS
 import re
