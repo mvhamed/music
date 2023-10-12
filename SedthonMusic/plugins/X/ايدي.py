@@ -12,7 +12,6 @@ from SedthonMusic import app
 from SedthonMusic.utils.database import is_on_off
 from config import GITHUB_REPO, SUPPORT_CHANNEL, SUPPORT_GROUP
 from SedthonMusic import app
-from SedthonMusic import edited
 from config import BANNED_USERS, MUSIC_BOT_NAME
 from SedthonMusic.misc import SUDOERS
 import re
@@ -173,7 +172,7 @@ async def mira(client: Client, message: Message):
 #السورس - المطور
 
 
-@app.on_message(filters.regex("^السورس$") & filters.group & ~filters.edited)
+@app.on_message(filters.regex("^السورس$") & filters.group & SUDOERS)
 async def sourc(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/45a08298c226a89563e4d.mp4",
@@ -196,7 +195,7 @@ async def sourc(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.regex("^المطور$") & filters.group & ~filters.edited)
+@app.on_message(filters.regex("^المطور$") & filters.group & SUDOERS)
 async def aboutd5ev(client: Client, message: Message):
     usr = await client.get_chat(1488114134)
     name = usr.first_name
