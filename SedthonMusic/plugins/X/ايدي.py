@@ -1,11 +1,11 @@
 import asyncio
 import pyrogram
 from pyrogram import Client, filters
-from AnonXMusic import settingsApp
+from SedthonMusic import settingsApp
 from strings import get_command
 from strings.filters import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from AnonXMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from SedthonMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 from typing import Union
 from pyrogram.types import InlineKeyboardButton
 from config import LOG, LOG_GROUP_ID
