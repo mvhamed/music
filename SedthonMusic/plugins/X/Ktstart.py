@@ -7,7 +7,6 @@ from time import time
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from SedthonMusic import app
-from SedthonMusic import settingsApp
 from SedthonMusic.utils.decorators.admins import AdminActual
 from strings import get_command
 from strings.filters import command
