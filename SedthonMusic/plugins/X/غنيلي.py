@@ -16,7 +16,7 @@ from time import time
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from SedthonMusic import app
-from SedthonMusic import pyrogram.filters
+from SedthonMusic import pyrogram_filters
 from SedthonMusic import pyrogram
 from strings import get_command
 from strings.filters import command
