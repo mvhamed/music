@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import Client, filters
 from strings.filters import command
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from YukkiMusic import app, Telegram
+from SedthonMusic import app, Telegram
 import random
 @app.on_message(
     command(["سيدثون","سورس","السورس","سورس سيدثون", "السيدثون"])
