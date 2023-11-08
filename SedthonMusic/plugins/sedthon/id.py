@@ -11,7 +11,6 @@ iddof = []
 @app.on_message(
     command(["قفل الايدي","تعطيل الايدي"])
     & filters.group
-    & ~filters.edited
 )
 async def iddlock(client, message):
    get = await app.get_chat_member(message.chat.id, message.from_user.id)
