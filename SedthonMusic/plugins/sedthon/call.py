@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import Client, filters
 from strings import get_command
 from strings.filters import command
-from pyrogram.types import Message
+from pyrogram.types import Message, VoiceChatStarted, VoiceChatEnded
 from SedthonMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
 from SedthonMusic.core.call import Yukki 
 from SedthonMusic.utils.database import get_assistant
