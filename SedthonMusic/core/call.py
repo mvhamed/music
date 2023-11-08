@@ -39,11 +39,11 @@ from SedthonMusic.utils.database import (add_active_chat,
                                        remove_active_chat,
                                        remove_active_video_chat,
                                        set_loop)
-from YukkiMusic.utils.exceptions import AssistantErr
-from YukkiMusic.utils.inline.play import (stream_markup,
+from SedthonMusic.utils.exceptions import AssistantErr
+from SedthonMusic.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from SedthonMusic.utils.stream.autoclear import auto_clean
+from SedthonMusic.utils.thumbnails import gen_thumb
 
 autoend = {}
 counter = {}
