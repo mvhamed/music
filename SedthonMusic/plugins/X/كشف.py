@@ -16,7 +16,7 @@ from asyncio import gather
 
 
 
-@app.on_message(command(["معلوماته", "كشف"]) & filters.group & ~filters.edited) 
+@app.on_message(command(["معلوماته", "كشف"]) & filters.group) 
 async def hshs(client: Client, message: Message):      
     usr = await client.get_users(message.reply_to_message.from_user.id)
     name = usr.first_name#
