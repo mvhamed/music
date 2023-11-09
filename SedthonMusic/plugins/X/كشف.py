@@ -85,7 +85,7 @@ async def sticker_image(client: Client, message: Message):
 
 
 
-@app.on_message(command(["كروب", "الكروب"]) & filters.group & ~filters.edited)
+@app.on_message(command(["كروب", "الكروب"]) & filters.group)
 async def ginnj(client: Client, message: Message):
     chat_idd = message.chat.id
     chat_name = message.chat.title
