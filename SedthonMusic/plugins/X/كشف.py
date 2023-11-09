@@ -42,7 +42,6 @@ async def hshs(client: Client, message: Message):
 @app.on_message(
     command(["بايو","البايو"])
     & filters.group
-    & ~filters.edited
 )
 async def biio(client, message):
   nq = await client.get_chat(message.from_user.id)
@@ -52,7 +51,6 @@ async def biio(client, message):
 @app.on_message(
     command(["شخصيتي", "معلوماتي", "شخصيه"])
     & filters.group
-    & ~filters.edited
 )
 async def ppdi(client: Client, message: Message):
     usr = await client.get_users(message.from_user.id)
