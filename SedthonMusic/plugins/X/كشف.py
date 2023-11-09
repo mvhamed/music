@@ -26,7 +26,7 @@ async def hshs(client: Client, message: Message):
     chat_name = message.chat.title#
     username = f"@{message.reply_to_message.from_user.username}"#
     async for photo in client.iter_profile_photos(message.reply_to_message.from_user.id, limit=1):
-                    await message.reply_photo(photo.file_id,       caption=f"""**[🔱 𝐒𝐎𝐔𝐑𝐂𝐄 • 𝐙𝐄 🔱˼⁩](https://t.me/UI_XB)\n\n🐉 ¦ ꪀᥲ️ꪔᥱ : {name}\n🤡 ¦ ᴜѕᴇ : {username}\n🔥 ¦ Ꭵَժ : `{user_id}`\n🗿 ¦ Ꭵժ ᥴ𝗁ᥲ️ƚ : `{chat_idd}`\n🔱 ¦ 𝚌𝚑𝚊𝚝 : {chat_name}\n🐊 ¦ ᘜᖇ᥆υρ : {chat_username} \n**""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""**[𝗦𝞝𝗗𝙏𝙃𝙊𝙉 𝗨ꜱᴇʀʙᴏᴛ˼⁩](https://t.me/veevvw)\n\n🐉 ¦ ꪀᥲ️ꪔᥱ : {name}\n🤡 ¦ ᴜѕᴇ : {username}\n🔥 ¦ Ꭵَժ : `{user_id}`\n🗿 ¦ Ꭵժ ᥴ𝗁ᥲ️ƚ : `{chat_idd}`\n🔱 ¦ 𝚌𝚑𝚊𝚝 : {chat_name}\n🐊 ¦ ᘜᖇ᥆υρ : {chat_username} \n**""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -87,13 +87,13 @@ async def sticker_image(client: Client, message: Message):
 
 
 
-@app.on_message(command(["الجروب", "جروب"]) & filters.group & ~filters.edited)
+@app.on_message(command(["كروب", "الكروب"]) & filters.group & ~filters.edited)
 async def ginnj(client: Client, message: Message):
     chat_idd = message.chat.id
     chat_name = message.chat.title
     chat_username = f"@{message.chat.username}"
     photo = await client.download_media(message.chat.photo.big_file_id)
-    await message.reply_photo(photo=photo, caption=f"""**🔱 ¦ ꪀᥲ️ꪔᥱ » {chat_name}\n🐉 ¦ Ꭵժ ᘜᖇ᥆υρ »  -{chat_idd}\n🐊 ¦ ᥣᎥꪀk » {chat_username}**""",     
+    await message.reply_photo(photo=photo, caption=f"""** ¦ ꪀᥲ️ꪔᥱ » {chat_name}\n🐉 ¦ Ꭵժ ᘜᖇ᥆υρ »  -{chat_idd}\n🐊 ¦ ᥣᎥꪀk » {chat_username}**""",     
     reply_markup=InlineKeyboardMarkup(
             [
                 [
