@@ -51,7 +51,7 @@ PLAY_COMMAND = get_command("PLAY_COMMAND")
             "vplayforce",
             "cplayforce",
             "cvplayforce",
-        ]
+        ],""
     )
     & filters.group
     & ~BANNED_USERS
