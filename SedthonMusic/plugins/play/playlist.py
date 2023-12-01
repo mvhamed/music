@@ -30,8 +30,8 @@ from SedthonMusic.utils.pastebin import Yukkibin
 from SedthonMusic.utils.stream.stream import stream
 
 # Command
-PLAYLIST_COMMAND = get_command("PLAYLIST_COMMAND")
-DELETEPLAYLIST_COMMAND = get_command("DELETEPLAYLIST_COMMAND")
+PLAYLIST_COMMAND = get_command(["قائمة التشغيل"],"")
+DELETEPLAYLIST_COMMAND = get_command(["مسح قائمة التشغيل"],"")
 
 
 @app.on_message(
