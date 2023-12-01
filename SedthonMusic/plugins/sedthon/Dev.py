@@ -53,7 +53,7 @@ async def ihd(client: Client, message: Message):
 @app.on_message(command(["صورة","صور"]))
 async def ihd(client: Client, message: Message):
     rs = random.randint(39,148)
-    url = f"https://t.me/GTTUTY/{rs}"
+    url = f"https://t.me/lli1w/{rs}"
     await client.send_photo(message.chat.id,url,caption="`💕 ¦ تـم اختيـار الصوره لـك`",
     reply_markup=InlineKeyboardMarkup(
             [
