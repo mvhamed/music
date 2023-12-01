@@ -30,12 +30,12 @@ from SedthonMusic.utils.pastebin import Yukkibin
 from SedthonMusic.utils.stream.stream import stream
 
 # Command
-PLAYLIST_COMMAND = get_command(["قائمة التشغيل"],"")
-DELETEPLAYLIST_COMMAND = get_command(["مسح قائمة التشغيل"],"")
+PLAYLIST_COMMAND = get_command(PLAYLIST_COMMAND)
+DELETEPLAYLIST_COMMAND = get_command(DELETEPLAYLIST_COMMAND)
 
 
 @app.on_message(
-    filters.command(PLAYLIST_COMMAND)
+    filters.command(["قائمة التشغيل"],"")
     & ~BANNED_USERS
 )
 @language
@@ -69,7 +69,7 @@ async def check_playlist(client, message: Message, _):
 
 
 @app.on_message(
-    filters.command(DELETEPLAYLIST_COMMAND)
+    filters.command(["مسح قائمة التشغيل"],"")
     & filters.group
     & ~BANNED_USERS
 )
