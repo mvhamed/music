@@ -24,7 +24,7 @@ PLAYMODE_COMMAND = get_command("PLAYMODE_COMMAND")
 
 
 @app.on_message(
-    filters.command(['وضع التشغيل'],"")
+    filters.command(["وضع التشغيل"],"")
     & filters.group
     & ~BANNED_USERS
 )
